@@ -1,0 +1,40 @@
+# वर्चुअल एनवायरनमेंट
+venv/
+env/
+.venv/
+
+# पाइथन कैश फाइलें
+__pycache__/
+*.py[cod]
+*.so
+
+# एनवायरनमेंट वेरिएबल वाली फाइल
+.env
+*.ini
+*.conf
+secrets.py
+config.py   # अगर उसमें टोकन/पासवर्ड हैं
+
+# लॉग फाइलें
+*.log
+
+# डेटाबेस फाइलें
+*.db
+*.sqlite3
+
+# सत्र फाइलें (extractor bot के लिए)
+session/
+*.session
+*.session-journal
+
+# डाउनलोड की हुई फाइलें (अगर बॉट डाउनलोड करता है)
+downloads/
+temp/
+
+# IDE फाइलें
+.vscode/
+.idea/
+
+# OS फाइलें
+.DS_Store
+Thumbs.db
